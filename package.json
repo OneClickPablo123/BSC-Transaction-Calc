@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OneClickPablo123/BSC-Transaction-Calc/issues"
   },
-  "homepage": "https://github.com/OneClickPablo123/BSC-Transaction-Calc#readme"
+  "homepage": "https://github.com/OneClickPablo123/BSC-Transaction-Calc#readme",
+  "dependencies": {
+    "bsc-scan": "^1.2.0"
+  }
 }
