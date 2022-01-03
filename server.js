@@ -8,7 +8,7 @@ console.log(bscscan);
 
 const start = async () => {
   try {
-    const transactions = await account.getTransactions('0x41cf3e9534156405a133cda545af9ff0e586500a');
+    const transactions = await account.getInternalTransactionsByAdress('0x41cf3e9534156405a133cda545af9ff0e586500a');
 
     console.log("Transaktionen: " + transactions);
 
